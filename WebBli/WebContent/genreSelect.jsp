@@ -4,7 +4,7 @@
 <%@page import="java.util.*"%>
 <%@page import="webBli.Livre"%>
 <%
-ArrayList<Livre> listeLivre = new ArrayList();
+ArrayList<Livre> listeLivre = new ArrayList<Livre>();
 try{
 	Class.forName("com.mysql.jdbc.Driver");
 		
